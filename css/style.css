@@ -1,0 +1,84 @@
+
+section{
+  text-align: center;
+}
+
+#cajaColor input{
+
+  height: 25px;
+  width: 25px;
+}
+
+#cajaColor #rojo{
+
+  background-color: red;
+  
+}
+
+#cajaColor #amarillo{
+
+  background-color: yellow;
+  
+}
+
+#cajaColor #verde{
+
+  background-color: green;
+}
+
+#cajaColor #azul{
+
+  background-color: blue;
+}
+
+#cajaColor #negro{
+
+  background-color: black;
+}
+
+#cajaColor *:focus{
+
+  background-color: black;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+#cajaColor #blanco{
+
+  background-color: white;
+}
+
+#cajaImagen svg{
+
+  width: fit-content;
+  height: auto;
+  box-shadow: 1px 4px 13px #000;
+  margin-top: 2%;
+}
+
+#cajaImagen #Color path{
+
+  cursor: pointer;
+
+}
+
+#cajaColor{
+  
+  /*text-align: center;*/
+  margin-top: 1%;
+  background-color: burlywood;
+  /*width: 48%;*/
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+  /* margin-left: 25%; */
+  box-shadow: 5px 4px 13px #000;
+}
+
+#generarImagen{
+  margin: 2%;
+}
+
+#generarImagen:focus{
+  box-shadow: none;
+}
